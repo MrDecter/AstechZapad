@@ -1,13 +1,636 @@
 {% extends 'main/base.html'%}
 
-{% block active-home %}
-active
-{% endblock %}
 
 {% block title %}
-Главная страница
+Астех-Запад|Главная
 {% endblock %}
 
-{% block content %}
-<h1>Главная страница</h1>
-{% endblock %}
+{%block body %}
+<!-- Hero/Intro Slider Start -->
+        <div class="section ">
+            <div class="hero-slider swiper-container slider-nav-style-1 slider-dot-style-1">
+                <!-- Hero slider Active -->
+                <div class="swiper-wrapper">
+                    <!-- Single slider item -->
+                    <div class="hero-slide-item slider-height swiper-slide bg-color1" data-bg-image="static/assets/images/hero/bg/hero-bg-1.webp">
+                        <div class="container h-100">
+                            <div class="row h-100">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 align-self-center sm-center-view">
+                                    <div class="hero-slide-content slider-animated-1">
+                                        <span class="category">Астех-Запад это:</span>
+                                        <h2 class="title-1">Изыскания,<br>
+                                         Проектирование,<br>
+                                         Строительство.</h2>
+                                        <a href="" class="btn btn-primary text-capitalize">Кнопка на страницу</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero/Intro Slider End -->
+        <!-- Banner Area Start -->
+        <div class="banner-area style-one pt-100px pb-100px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="single-banner nth-child-1">
+                            <img src="static/assets/images/banner/3.webp" alt="">
+                            <div class="banner-content nth-child-1">
+                                <h3 class="title">О Компании</h3>
+                                <a href="" class="shop-link"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="single-banner nth-child-2 mb-30px mb-lm-30px mt-lm-30px ">
+                            <img src="static/assets/images/banner/4.webp" alt="">
+                            <div class="banner-content nth-child-2">
+                                <h3 class="title">Сервисы</h3>
+                                <a href="" class="shop-link"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="single-banner nth-child-2">
+                            <img src="static/assets/images/banner/5.webp" alt="">
+                            <div class="banner-content nth-child-3">
+                                <h3 class="title">Выгода</h3>
+                                <a href="" class="shop-link"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Banner Area End -->
+        <!-- Product Area Start -->
+        <div class="product-area pb-100px">
+            <div class="container">
+                <!-- Section Title & Tab Start -->
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class=".title">Портфолио</h2>
+                        <!-- Tab Start -->
+                        <div class="tab-slider d-md-flex justify-content-md-between align-items-md-center">
+                            <ul class="product-tab-nav nav justify-content-start align-items-center">
+                                <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#newarrivals">Административные</button>
+                                </li>
+                                <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#toprated">Производственные</button>
+                                </li>
+                                <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#featured">Инженерные</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Tab End -->
+                    </div>
+                </div>
+                <!-- Section Title & Tab End -->
+                <div class="row">
+                    <div class="col">
+                        <div class="tab-content mt-60px">
+                            <!-- 1st tab start -->
+                            <div class="tab-pane fade show active" id="newarrivals">
+                                <div class="row mb-n-30px">
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/2.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/2.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">Тип стройки</a></span>
+                                                <h5 class="title"><a href="">Название</a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/2.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/2.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">Тип стрйоки</a></span>
+                                                <h5 class="title"><a href="">Название</a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/3.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/3.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">Тип стройки</a></span>
+                                                <h5 class="title"><a href="">Название
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/4.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/1.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">Тип строки</a></span>
+                                                <h5 class="title"><a href="">Название
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/6.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/6.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">Тип стройки</a></span>
+                                                <h5 class="title"><a href="">Название
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/7.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/1.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">Тип стройки</a></span>
+                                                <h5 class="title"><a href="">Название
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/8.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/8.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">Тип стройки</a></span>
+                                                <h5 class="title"><a href="">Название
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 1st tab end -->
+
+                            <!-- 2nd tab start -->
+                            <div class="tab-pane fade" id="toprated">
+                                <div class="row">
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/1.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/1.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">Тип</a></span>
+                                                <h5 class="title"><a href="">Название
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/2.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/2.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">тип</a></span>
+                                                <h5 class="title"><a href="">название
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/3.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/3.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">тип</a></span>
+                                                <h5 class="title"><a href="">название
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/4.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/1.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">тип</a></span>
+                                                <h5 class="title"><a href="">Название
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <span class="badges">
+                                            </span>
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/5.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/5.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">тип</a></span>
+                                                <h5 class="title"><a href="">название
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/6.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/6.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">тип</a></span>
+                                                <h5 class="title"><a href="">название
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/7.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/1.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">тип</a></span>
+                                                <h5 class="title"><a href="">название
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/8.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/8.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">тип</a></span>
+                                                <h5 class="title"><a href="">название
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 2nd tab end -->
+
+                            <!-- 3rd tab start -->
+                            <div class="tab-pane fade" id="featured">
+                                <div class="row">
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/1.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/1.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">тип</a></span>
+                                                <h5 class="title"><a href="">название
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/2.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/2.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">тип</a></span>
+                                                <h5 class="title"><a href="">навание
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/3.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/3.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">тип</a></span>
+                                                <h5 class="title"><a href="">название
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/4.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/1.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">тип</a></span>
+                                                <h5 class="title"><a href="">название
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/5.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/5.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">тип</a></span>
+                                                <h5 class="title"><a href="">название
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/6.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/6.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">тип</a></span>
+                                                <h5 class="title"><a href="">продукт
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="single-product.html" class="image">
+                                                    <img src="static/assets/images/product-image/7.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/1.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">тип</a></span>
+                                                <h5 class="title"><a href="">продукт
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-xs-6 mb-30px">
+                                        <!-- Single Prodect -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="" class="image">
+                                                    <img src="static/assets/images/product-image/8.webp" alt="Product" />
+                                                    <img class="hover-image" src="static/assets/images/product-image/8.webp" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <span class="category"><a href="#">тип</a></span>
+                                                <h5 class="title"><a href="">продукт
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 3rd tab end -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Product Area End -->
+
+        <!-- Fashion Area Start -->
+        <div class="fashion-area" data-bg-image="static/assets/images/fashion/fashion-bg.webp">
+            <div class="container h-100">
+                <div class="row justify-content-center align-items-center h-100">
+                    <div class="col-12 text-center">
+                        <h2 class="title"> <span>Какой либо</span> призыв к действию </h2>
+                        <a href="" class="btn btn-primary text-capitalize m-auto">Ссылка</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fashion Area End -->
+        <!-- Feature product area start -->
+        <div class="feature-product-area pt-100px pb-100px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title text-center">
+                            <h2 class="title">Возможно</h2>
+                            <p>Блок с аккциями, предложениями и т.д.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 mb-md-35px mb-lm-35px">
+                        <div class="single-feature-content">
+                            <div class="feature-image">
+                                <img src="static/assets/images/feature-image/1.webp" alt="">
+                            </div>
+                            <div class="top-content">
+                                <h4 class="title"><a href="">Незабыть подогнать размер фото </a></h4>
+                            </div>
+                            <div class="bottom-content">
+                                <div class="deal-timing">
+                                    <div data-countdown="2022/04/27"></div>
+                                </div>
+                                <a href="" class="btn btn-primary  m-auto"> Ссылка </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Start contact-->
+                            <div class="contact-area">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="contact-form">
+                                <div class="contact-title mb-30">
+                                    <h2 class="title">Отправить заявку</h2>
+                                </div>
+                                <form class="contact-form-style" id="contact-form" action="" method="post">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <input name="name" placeholder="Имя*" type="text" />
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input name="email" placeholder="Почта*" type="email" />
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <input name="subject" placeholder="Интересует*" type="text" />
+                                        </div>
+                                        <div class="col-lg-12 text-center">
+                                            <textarea name="message" placeholder="Описание*"></textarea>
+                                            <button class="btn btn-primary" type="submit">Отправить</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <p class="form-messege"></p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="contact-info">
+                                <div class="single-contact">
+                                    <div class="icon-box">
+                                        <img src="static/assets/images/icons/contact-1.png" alt="">
+                                    </div>
+                                    <div class="info-box">
+                                        <h5 class="title">Адрес</h5>
+                                        <p>Пр-кт Бакунина 29<br>
+                                        литер А, пом. 18Н, оф.7</p>
+                                    </div>
+                                </div>
+                                <div class="single-contact">
+                                    <div class="icon-box">
+                                        <img src="static/assets/images/icons/contact-2.png" alt="">
+                                    </div>
+                                    <div class="info-box">
+                                        <h5 class="title">Телефон</h5>
+                                        <p><a href="tel:+79219109630">+7 921 910 96 30</a></p>
+                                        <p><a href="tel:+78129970196">+7 812 997 01 96</a></p>
+                                    </div>
+                                </div>
+                                <div class="single-contact m-0">
+                                    <div class="icon-box">
+                                        <img src="static/assets/images/icons/contact-3.png" alt="">
+                                    </div>
+                                    <div class="info-box">
+                                        <h5 class="title">Почта/Сайт</h5>
+                                        <p><a href="mailto:sales@astech.build">sales@astech.build</a></p>
+                                        <p><a href="https://www.astech.build">www.astech.build</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End contact-->
+        <!-- map Area Start -->
+        <div class="contact-map">
+            <div id="mapid">
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.0837788580313!2d30.38241731607025!3d59.930751981873314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631bf8fc66a5d%3A0x61dcfe74807018d2!2z0L_RgC4g0JHQsNC60YPQvdC40L3QsCwgMjksINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExNDQ!5e0!3m2!1sru!2sru!4v1650869052734!5m2!1sru!2sru"></iframe>
+                        <a href="https://sites.google.com/view/maps-api-v2/mapv2"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- map Area End -->
+        <!-- Feature product area End -->
+{%endblock%}
