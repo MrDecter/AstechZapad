@@ -1,0 +1,106 @@
+{% extends 'main/base.html'%}
+
+
+{% block title %}
+Астех-Запад | Контакты
+{% endblock %}
+
+{%block body %}
+<!-- breadcrumb-area start -->
+        <div class="breadcrumb-area">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 text-center">
+                        <h2 class="breadcrumb-title">Связаться</h2>
+                        <!-- breadcrumb-list start -->
+                        <ul class="breadcrumb-list">
+                            <li class="breadcrumb-item"><a href="/">Главная</a></li>
+                            <li class="breadcrumb-item active">Контакты</li>
+                        </ul>
+                        <!-- breadcrumb-list end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--Start contact-->
+        <div class="contact-area">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="contact-form">
+                                <div class="contact-title mb-30">
+                                    <h2 class="title">Отправить заявку</h2>
+                                </div>
+                                <form class="contact-form-style" id="contact-form" action="" method="post">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <input name="name" placeholder="Имя*" type="text" />
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input name="email" placeholder="Почта*" type="email" />
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <input name="subject" placeholder="Интересует*" type="text" />
+                                        </div>
+                                        <div class="col-lg-12 text-center">
+                                            <textarea name="message" placeholder="Описание*"></textarea>
+                                            <button class="btn btn-primary" type="submit">Отправить</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <p class="form-messege"></p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="contact-info">
+                                <div class="single-contact">
+                                    <div class="icon-box">
+                                        <img src="static/assets/images/icons/contact-1.png" alt="">
+                                    </div>
+                                    <div class="info-box">
+                                        <h5 class="title">Адрес</h5>
+                                        <p>Пр-кт Бакунина 29<br>
+                                        литер А, пом. 18Н, оф.7</p>
+                                    </div>
+                                </div>
+                                <div class="single-contact">
+                                    <div class="icon-box">
+                                        <img src="static/assets/images/icons/contact-2.png" alt="">
+                                    </div>
+                                    <div class="info-box">
+                                        <h5 class="title">Телефон</h5>
+                                        <p><a href="tel:+79219109630">+7 921 910 96 30</a></p>
+                                        <p><a href="tel:+78129970196">+7 812 997 01 96</a></p>
+                                    </div>
+                                </div>
+                                <div class="single-contact m-0">
+                                    <div class="icon-box">
+                                        <img src="static/assets/images/icons/contact-3.png" alt="">
+                                    </div>
+                                    <div class="info-box">
+                                        <h5 class="title">Почта/Сайт</h5>
+                                        <p><a href="mailto:sales@astech.build">sales@astech.build</a></p>
+                                        <p><a href="https://www.astech.build">www.astech.build</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End contact-->
+        <!-- map Area Start -->
+        <div class="contact-map">
+            <div id="mapid">
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.0837788580313!2d30.38241731607025!3d59.930751981873314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631bf8fc66a5d%3A0x61dcfe74807018d2!2z0L_RgC4g0JHQsNC60YPQvdC40L3QsCwgMjksINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExNDQ!5e0!3m2!1sru!2sru!4v1650869052734!5m2!1sru!2sru"></iframe>
+                        <a href="https://sites.google.com/view/maps-api-v2/mapv2"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- map Area End -->
+{%endblock%}
