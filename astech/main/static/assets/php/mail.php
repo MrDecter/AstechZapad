@@ -1,5 +1,5 @@
 <?php
-    header("Access-Control-Allow-Origin: *");
+
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
@@ -18,7 +18,7 @@
         }
 
         // Set the recipient email address.
-        $recipient = "youremail@mail.com";
+        $recipient = "ghoillus@gmail.com";
 
         // Set the email subject.
         $subject = "pronia - Mail From $name";
@@ -35,17 +35,17 @@
         if (mail($recipient, $subject, $email_content, $email_headers)) {
             // Set a 200 (okay) response code.
             http_response_code(200);
-            echo "Thank You! Your message has been sent.";
+            echo "Спасибо! Ваше обращение взято в обработку";
         } else {
             // Set a 500 (internal server error) response code.
             http_response_code(500);
-            echo "Oops! Something went wrong and we couldn't send your message.";
+            echo "Упс! Ошибка отправки сообщения, повторите попытку";
         }
 
     } else {
         // Not a POST request, set a 403 (forbidden) response code.
         http_response_code(403);
-        echo "There was a problem with your submission, please try again.";
+        echo "Возникли проблемы с отправкой сообщения, заполните все поля и повторите попытку снова.";
     }
 
 ?>
