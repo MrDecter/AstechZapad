@@ -1,0 +1,58 @@
+{% extends 'main/base.html'%}
+
+
+
+
+{%block body %}
+
+<div class="breadcrumb-area">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 text-center">
+                        <h2 class="breadcrumb-title">ПОРТФОЛИО</h2>
+                        <!-- breadcrumb-list start -->
+                        <ul class="breadcrumb-list">
+                            <li class="breadcrumb-item"><a href="/">Главная</a></li>
+                            <li class="breadcrumb-item active">Портфолио</li>
+                        </ul>
+                        <!-- breadcrumb-list end -->
+                    </div>
+                </div>
+            </div>
+</div>
+
+<!-- Product Details Area Start -->
+        <div class="product-details-area pt-100px pb-100px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 col-xs-12 mb-lm-30px mb-md-30px mb-sm-30px">
+                        <div class="swiper-container zoom-top">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img class="img-responsive m-auto" src="static/assets/images/product-image/zoom-image/{%block name-image%}{%endblock%}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 col-xs-12" data-aos="fade-up" data-aos-delay="200">
+                        <div class="product-details-content quickview-content ml-25px">
+                            <h2>{%block name-item%}{%endblock%}</h2>
+                            <p class="mt-30px">{%block descript-item%}{%endblock%}</p>
+                            <div class="pro-details-categories-info pro-details-same-style d-flex m-0">
+                                <span>Площадь:</span>
+                                <p class="d-flex">{%block ploshad-item%}{%endblock%}</p>
+                            </div>
+                            <div class="pro-details-categories-info pro-details-same-style d-flex m-0">
+                                <span>Адрес: </span>
+                                <p class="d-flex">{%block adres-item%}{%endblock%}</p>
+                            </div>
+                            <div class="pro-details-categories-info pro-details-same-style d-flex m-0">
+                                <span>Тип: </span>
+                                <p class="d-flex">{%block type-item%}{%endblock%}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+{%endblock%}
