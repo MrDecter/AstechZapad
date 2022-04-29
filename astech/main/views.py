@@ -14,6 +14,9 @@ def contact(request):
 def service(request):
     return render(request, 'main/service.html')
 
+def special(request):
+    return render(request, 'main/special.html')
+
 def item1(request):
     return render(request, 'main/item/item1.html')
 

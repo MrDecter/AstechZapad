@@ -19,5 +19,6 @@ urlpatterns = [
     path('Torgovyj-kompleks', views.item12, name='item12'),
     path('Cekh-holodnoj-shtampovki', views.item13, name='item13'),
     path('Sklad-obshchego-naznacheniya', views.item14, name='item14'),
-    path('Skladskoj-kompleks', views.item15, name='item15')
+    path('Skladskoj-kompleks', views.item15, name='item15'),
+    path('specialnoe-predlozhenie', views.special, name='special')
 ]
