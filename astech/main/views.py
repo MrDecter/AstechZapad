@@ -17,6 +17,9 @@ def service(request):
 def special(request):
     return render(request, 'main/special.html')
 
+def vigod(request):
+    return render(request, 'main/vigod.html')
+
 def item1(request):
     return render(request, 'main/item/item1.html')
 
